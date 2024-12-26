@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-# Initialized upon running the program, receives a website object upon
-# initialization and is the top level object the user interacts with.
-class WebScraper
-  def initialize; end
+require_relative 'lib/webscraper'
+
+if __FILE__ == $PROGRAM_NAME
+  webscraper = WebScraper::WebScraper.new
+  webscraper.run
 end
