@@ -12,3 +12,8 @@
 *.pyc
 
 # Ruby
+
+
+# Webscraper
+## Ruby
+web-scraper/ruby/local/*
