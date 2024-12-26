@@ -1,0 +1,14 @@
+
+# Visual Studio code workspace configurations
+.vscode
+
+# Compiled sources
+
+# C / C++
+*.o
+
+# Java
+*.class
+
+# Python
+*.pyc
