@@ -2,8 +2,6 @@
 # Visual Studio code workspace configurations
 .vscode
 
-# Compiled sources
-
 # C / C++
 *.o
 
@@ -12,3 +10,6 @@
 
 # Python
 *.pyc
+
+# Ruby
+rubocop.yml
